@@ -5,20 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ade5912-2a15-445a-b2b6-76cd06aa0665" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DefaultStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyImpl1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StrategyImpl3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PATTEREN-OBSERVER/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PATTERN-STRATEGY/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PATTERN-STRATEGY/src/main/java/StrategyImpl3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/PATTERN-STRATEGY/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Context.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DefaultStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/PATTERN-STRATEGY/src/main/java/DefaultStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/PATTERN-STRATEGY/src/main/java/Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StrategyImpl1.java" beforeDir="false" afterPath="$PROJECT_DIR$/PATTERN-STRATEGY/src/main/java/StrategyImpl1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StrategyImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/PATTERN-STRATEGY/src/main/java/StrategyImpl2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StrategyImpl3.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,18 +51,33 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/h/IdeaProjects/micro service-spring/bank-account-service/desing-patter/PATTERN-STRATEGY",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\h\IdeaProjects\micro service-spring\bank-account-service\desing-patter\PATTERN-STRATEGY" />
+      <recent name="C:\Users\h\IdeaProjects\micro service-spring\bank-account-service\desing-patter\src\main\PATTEREN_STRATEGY" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\h\IdeaProjects\micro service-spring\bank-account-service\desing-patter\PATTERN-STRATEGY" />
+      <recent name="C:\Users\h\IdeaProjects\micro service-spring\bank-account-service\desing-patter\src\main\java" />
+      <recent name="C:\Users\h\IdeaProjects\micro service-spring\bank-account-service\desing-patter\src" />
+      <recent name="C:\Users\h\IdeaProjects\micro service-spring\bank-account-service\desing-patter\src\main\PATTEREN_STRATEGY" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -100,7 +114,8 @@
       <updated>1733514819153</updated>
       <workItem from="1733514821123" duration="3130000" />
       <workItem from="1733914025465" duration="9352000" />
-      <workItem from="1733989881657" duration="2631000" />
+      <workItem from="1733989881657" duration="3827000" />
+      <workItem from="1733994884960" duration="776000" />
     </task>
     <servers />
   </component>

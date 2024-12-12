@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class App {
 
     public static void main(String[] args) throws Exception {
-        Context ctx = new Context();
+        StrategyImpl3.Context ctx = new StrategyImpl3.Context();
         Scanner scanner =new Scanner(System.in);
         Map<String, Strategy> strategyMap= new HashMap<>();
         strategyMap.put("st1", new StrategyImpl1());
