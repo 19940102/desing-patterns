@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ade5912-2a15-445a-b2b6-76cd06aa0665" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PATTEREN-OBSERVER/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PATTERN-STRATEGY/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PATTERN-STRATEGY/src/main/java/StrategyImpl3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PATTEREN-OBSERVER/src/main/java/obs/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PATTEREN-OBSERVER/src/main/java/obs/ObservableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PATTEREN-OBSERVER/src/main/java/obs/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PATTEREN-OBSERVER/src/main/java/obs/ObserverImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PATTEREN-OBSERVER/src/main/java/obs/ObserverImpl2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/PATTERN-STRATEGY/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Context.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DefaultStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/PATTERN-STRATEGY/src/main/java/DefaultStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/PATTERN-STRATEGY/src/main/java/Strategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StrategyImpl1.java" beforeDir="false" afterPath="$PROJECT_DIR$/PATTERN-STRATEGY/src/main/java/StrategyImpl1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StrategyImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/PATTERN-STRATEGY/src/main/java/StrategyImpl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StrategyImpl3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PATTEREN-OBSERVER/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PATTEREN-OBSERVER/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +33,18 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2prCTW2rudgLGQQmpxp7eH6aQOA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.App.executor": "Run",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -67,6 +65,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="OBS" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -83,7 +82,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="desing-patter" />
@@ -91,8 +90,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="PATTEREN-OBSERVER" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -115,11 +128,14 @@
       <workItem from="1733514821123" duration="3130000" />
       <workItem from="1733914025465" duration="9352000" />
       <workItem from="1733989881657" duration="3827000" />
-      <workItem from="1733994884960" duration="776000" />
+      <workItem from="1733994884960" duration="18043000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
