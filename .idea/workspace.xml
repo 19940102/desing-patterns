@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ade5912-2a15-445a-b2b6-76cd06aa0665" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PATTEREN-OBSERVER/src/main/java/obs/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PATTEREN-OBSERVER/src/main/java/obs/ObservableImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PATTEREN-OBSERVER/src/main/java/obs/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PATTEREN-OBSERVER/src/main/java/obs/ObserverImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PATTEREN-OBSERVER/src/main/java/obs/ObserverImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PATTEREN-DECORA/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PATTEREN-DECORA/src/main/java/boissons/Boisson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PATTEREN-DECORA/src/main/java/boissons/Deca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PATTEREN-DECORA/src/main/java/boissons/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PATTEREN-DECORA/src/main/java/boissons/Sumatra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PATTEREN-DECORA/src/main/java/deco/Caramel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PATTEREN-DECORA/src/main/java/deco/Chantilly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PATTEREN-DECORA/src/main/java/deco/Chocolat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PATTEREN-DECORA/src/main/java/deco/DecorateurBoisson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PATTEREN-DECORA/src/main/java/deco/Noisette.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PATTEREN-DECORA/src/main/java/deco/Vanille.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PATTEREN-DECORA/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PATTEREN-OBSERVER/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PATTEREN-OBSERVER/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +52,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.App.executor": "Run",
+    "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -51,7 +60,7 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/h/IdeaProjects/micro service-spring/bank-account-service/desing-patter/PATTERN-STRATEGY",
+    "last_opened_file_path": "C:/Users/h/IdeaProjects/micro service-spring/desing-patter",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,13 +88,28 @@
       <recent name="C:\Users\h\IdeaProjects\micro service-spring\bank-account-service\desing-patter\src\main\PATTEREN_STRATEGY" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="deco" />
+      <recent name="boissons" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="desing-patter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="PATTEREN-DECORA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,17 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -128,7 +146,10 @@
       <workItem from="1733514821123" duration="3130000" />
       <workItem from="1733914025465" duration="9352000" />
       <workItem from="1733989881657" duration="3827000" />
-      <workItem from="1733994884960" duration="18043000" />
+      <workItem from="1733994884960" duration="19160000" />
+      <workItem from="1734358382874" duration="740000" />
+      <workItem from="1734359274938" duration="136000" />
+      <workItem from="1734688416629" duration="9657000" />
     </task>
     <servers />
   </component>
